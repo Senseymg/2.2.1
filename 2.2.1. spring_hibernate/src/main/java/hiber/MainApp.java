@@ -36,6 +36,7 @@ public class MainApp {
      // carService.addCar(new Car(users.get(1),"Bmw",3));
      // carService.addCar(new Car(users.get(2),"Mazda",5));
      // carService.addCar(new Car(users.get(3),"LandRover",1));
+      System.out.println(carService.GetUserByCar("Toyota",240));
 
       context.close();
    }

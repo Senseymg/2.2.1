@@ -17,5 +17,11 @@ public class CarServiceImpl implements CarService{
     public void addCar(Car car) {
         carDao.addCar(car);
     }
+    @Transactional
+    @Override
+    public User GetUserByCar(String model,int series){
+
+        return carDao.GetUserByCar(model,series);
+    }
 
 }
